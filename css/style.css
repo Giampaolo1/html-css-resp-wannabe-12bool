@@ -15,9 +15,13 @@
 text-align: center;
 }
 
-.left {
+.left, .right {
   text-align: center;
 }
+.left > img {width: 15%}
+.right > img {width: 15%}
+
+
 
 /* CSS MICHELE:  */
 
