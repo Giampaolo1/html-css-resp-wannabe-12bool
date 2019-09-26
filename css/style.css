@@ -5,3 +5,8 @@
   border: 0;
   box-sizing: border-box;
 }
+
+[class*="col-"] {
+  height: 100px;
+  border: 0.1px solid;
+}
