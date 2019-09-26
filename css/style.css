@@ -21,6 +21,32 @@ text-align: center;
 .left > img {width: 15%}
 .right > img {width: 15%}
 
+/* IDEA:  */
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightgrey;
+  }
+  h1 {color: blue;}
+  h3 {color: red;}
+}
+
+/* IDEA:  */
+
+@media screen and (min-width: 768px)
+and (max-width: 991px){
+  body {
+    background-color: green;
+  }
+}
+
+/* IDEA:  */
+@media screen and (min-width: 992px){
+body {
+  background-color: red;
+  }
+}
+
 
 
 /* CSS MICHELE:  */
