@@ -7,42 +7,45 @@
 }
 
 [class*="col-"] {
-  height: 100px;
-  border: 0.1px solid;
+  height: auto;
+  border: 1px solid;
 }
 
-h1 {
+.row {
 text-align: center;
+}
+
+.left {
+  text-align: center;
 }
 
 /* CSS MICHELE:  */
 
-.row {
-  width: 992px;
+/* .row {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-}
+} */
 
 /* BLOCCO LEZIONI */
-#lezioni .row > .left, #lezioni .row > .right{
+/* #lezioni .row > .left, #lezioni .row > .right{
   width: 50%;
   float: left;
-}
+} */
 
-#lezioni .row img {
+/* #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-#lezioni {
+/* #lezioni {
   text-align: center;
-}
+} */
 
 /* BLOCCO STEPS */
-#steps .row > .left,
+/* #steps .row > .left,
 #steps .row > .central,
 #steps .row > .right{
   float: left;
@@ -51,10 +54,10 @@ text-align: center;
 
 #steps{
   text-align: center;
-}
+} */
 
 /* BLOCCO PERCHE */
-#why {
+/* #why {
   text-align: center;
 }
 
@@ -73,7 +76,7 @@ text-align: center;
 
 /* COMMON */
 
-[background="grey"]{
+/* [background="grey"]{
   background-color: #f9f9f9;
 }
 
@@ -83,4 +86,4 @@ img{
 
 .clear {
   clear:both;
-}
+} */ */
