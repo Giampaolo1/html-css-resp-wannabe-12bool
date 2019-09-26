@@ -11,7 +11,11 @@
   border: 0.1px solid;
 }
 
-/* IDEA:  */
+h1 {
+text-align: center;
+}
+
+/* CSS MICHELE:  */
 
 .row {
   width: 992px;
