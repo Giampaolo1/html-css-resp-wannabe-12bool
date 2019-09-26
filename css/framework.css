@@ -15,6 +15,7 @@
 /* container di riga */
 .container {
   max-width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -28,7 +29,7 @@
 [class*="col-"]{
   float:left;
 }
------------------------------------------
+
 /* REGOLE COLONNA DESKTOP */
 
 @media screen and (min-width: 992px){
@@ -108,7 +109,7 @@
   margin-left: calc((100%/12)*12)
 }
 }
----------------------------------------------------
+
 /* REGOLE COLONNA IPAD */
 
 @media screen and (min-width: 768px)
@@ -189,7 +190,7 @@ and (max-width: 991px){
   margin-left: calc((100%/12)*12)
 }
 }
----------------------------------------------
+
 /* REGOLE COLONNA SMARTPHONE */
 
 @media screen and (max-width: 768px){
